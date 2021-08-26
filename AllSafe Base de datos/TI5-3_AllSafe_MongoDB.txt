@@ -1,0 +1,7 @@
+use allsafe
+db.accesoboveda.insert({"fecha":"", "hora":"","alerta":""})
+db.movimiento.insert({"fecha":"", "hora":"","estado":""})
+db.users.insert({"name":"", "email":"","password":"","type":""})
+
+conexion al cluster
+mongodb+srv://admin:osopanda@cluster0.9bbgv.mongodb.net/allsafe
